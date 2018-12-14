@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name teensy)(type KiCad)(uri /Users/dean/Downloads/kicad/teensy.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri /Users/dean/Downloads/kicad/keyswitches.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri /Users/dean/Downloads/kicad/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name "SeeedOPL for Kicad-alpha-2018-11")(type KiCad)(uri "/Users/dean/Downloads/kicad/SeeedOPL for Kicad-alpha-2018-11")(options "")(descr ""))
+  (lib (name APDS)(type KiCad)(uri /Users/dean/Downloads/kicad/APDS.pretty)(options "")(descr ""))
+  (lib (name EVQPSL)(type KiCad)(uri /Users/dean/Downloads/kicad/EVQPSL.pretty)(options "")(descr ""))
+  (lib (name BC-2003)(type KiCad)(uri /Users/dean/Downloads/kicad/BC-2003.pretty)(options "")(descr ""))
+  (lib (name ESP32-footprints-Lib)(type KiCad)(uri /Users/dean/Downloads/kicad/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Lib.pretty)(options "")(descr ""))
+)

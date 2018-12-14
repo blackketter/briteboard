@@ -1,0 +1,3050 @@
+EESchema Schematic File Version 4
+LIBS:bb1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5C0C2084
+P 2800 600
+F 0 "SW1" H 2800 500 50  0000 C CNN
+F 1 "SW_SPST" H 2800 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 2800 600 50  0001 C CNN
+F 3 "" H 2800 600 50  0001 C CNN
+	1    2800 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D1
+U 1 1 5C0C208B
+P 3000 750
+F 0 "D1" V 2900 850 50  0000 C CNN
+F 1 "1N914" V 3000 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3000 750 50  0001 C CNN
+	1    3000 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5C0C212E
+P 2800 1000
+F 0 "SW2" H 2800 900 50  0000 C CNN
+F 1 "SW_SPST" H 2800 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 2800 1000 50  0001 C CNN
+F 3 "" H 2800 1000 50  0001 C CNN
+	1    2800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D2
+U 1 1 5C0C2135
+P 3000 1150
+F 0 "D2" V 2900 1250 50  0000 C CNN
+F 1 "1N914" V 3000 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3000 1150 50  0001 C CNN
+	1    3000 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 5C0C2208
+P 2800 1400
+F 0 "SW3" H 2800 1300 50  0000 C CNN
+F 1 "SW_SPST" H 2800 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 2800 1400 50  0001 C CNN
+F 3 "" H 2800 1400 50  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D3
+U 1 1 5C0C220F
+P 3000 1550
+F 0 "D3" V 2900 1650 50  0000 C CNN
+F 1 "1N914" V 3000 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3000 1550 50  0001 C CNN
+	1    3000 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 5C0C235A
+P 2800 1800
+F 0 "SW4" H 2800 1700 50  0000 C CNN
+F 1 "SW_SPST" H 2800 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 2800 1800 50  0001 C CNN
+F 3 "" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D4
+U 1 1 5C0C2361
+P 3000 1950
+F 0 "D4" V 2900 2050 50  0000 C CNN
+F 1 "1N914" V 3000 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3000 1950 50  0001 C CNN
+	1    3000 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW5
+U 1 1 5C0C2418
+P 2800 2200
+F 0 "SW5" H 2800 2100 50  0000 C CNN
+F 1 "SW_SPST" H 2800 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 2800 2200 50  0001 C CNN
+F 3 "" H 2800 2200 50  0001 C CNN
+	1    2800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D5
+U 1 1 5C0C241F
+P 3000 2350
+F 0 "D5" V 2900 2450 50  0000 C CNN
+F 1 "1N914" V 3000 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 600  2600 1000
+Connection ~ 2600 1000
+Wire Wire Line
+	2600 1000 2600 1400
+Connection ~ 2600 1400
+Wire Wire Line
+	2600 1400 2600 1800
+Connection ~ 2600 1800
+Wire Wire Line
+	2600 1800 2600 2200
+$Comp
+L Switch:SW_SPST SW6
+U 1 1 5C0C3033
+P 3350 600
+F 0 "SW6" H 3350 500 50  0000 C CNN
+F 1 "SW_SPST" H 3350 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3350 600 50  0001 C CNN
+F 3 "" H 3350 600 50  0001 C CNN
+	1    3350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D6
+U 1 1 5C0C303A
+P 3550 750
+F 0 "D6" V 3450 850 50  0000 C CNN
+F 1 "1N914" V 3550 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3550 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3550 750 50  0001 C CNN
+	1    3550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW7
+U 1 1 5C0C3041
+P 3350 1000
+F 0 "SW7" H 3350 900 50  0000 C CNN
+F 1 "SW_SPST" H 3350 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3350 1000 50  0001 C CNN
+F 3 "" H 3350 1000 50  0001 C CNN
+	1    3350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D7
+U 1 1 5C0C3048
+P 3550 1150
+F 0 "D7" V 3450 1250 50  0000 C CNN
+F 1 "1N914" V 3550 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3550 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3550 1150 50  0001 C CNN
+	1    3550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW8
+U 1 1 5C0C304F
+P 3350 1400
+F 0 "SW8" H 3350 1300 50  0000 C CNN
+F 1 "SW_SPST" H 3350 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3350 1400 50  0001 C CNN
+F 3 "" H 3350 1400 50  0001 C CNN
+	1    3350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D8
+U 1 1 5C0C3056
+P 3550 1550
+F 0 "D8" V 3450 1650 50  0000 C CNN
+F 1 "1N914" V 3550 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3550 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3550 1550 50  0001 C CNN
+	1    3550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW9
+U 1 1 5C0C305D
+P 3350 1800
+F 0 "SW9" H 3350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 3350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3350 1800 50  0001 C CNN
+F 3 "" H 3350 1800 50  0001 C CNN
+	1    3350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D9
+U 1 1 5C0C3064
+P 3550 1950
+F 0 "D9" V 3450 2050 50  0000 C CNN
+F 1 "1N914" V 3550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW10
+U 1 1 5C0C306B
+P 3350 2200
+F 0 "SW10" H 3350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 3350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3350 2200 50  0001 C CNN
+F 3 "" H 3350 2200 50  0001 C CNN
+	1    3350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D10
+U 1 1 5C0C3072
+P 3550 2350
+F 0 "D10" V 3450 2450 50  0000 C CNN
+F 1 "1N914" V 3550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 3550 2350 50  0001 C CNN
+	1    3550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 600  3150 1000
+Connection ~ 3150 1000
+Wire Wire Line
+	3150 1000 3150 1400
+Connection ~ 3150 1400
+Wire Wire Line
+	3150 1400 3150 1800
+Connection ~ 3150 1800
+Wire Wire Line
+	3150 1800 3150 2200
+$Comp
+L Switch:SW_SPST SW11
+U 1 1 5C0C333E
+P 3850 600
+F 0 "SW11" H 3850 500 50  0000 C CNN
+F 1 "SW_SPST" H 3850 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3850 600 50  0001 C CNN
+F 3 "" H 3850 600 50  0001 C CNN
+	1    3850 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D11
+U 1 1 5C0C3345
+P 4050 750
+F 0 "D11" V 3950 850 50  0000 C CNN
+F 1 "1N914" V 4050 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4050 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4050 750 50  0001 C CNN
+	1    4050 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW12
+U 1 1 5C0C334C
+P 3850 1000
+F 0 "SW12" H 3850 900 50  0000 C CNN
+F 1 "SW_SPST" H 3850 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3850 1000 50  0001 C CNN
+F 3 "" H 3850 1000 50  0001 C CNN
+	1    3850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D12
+U 1 1 5C0C3353
+P 4050 1150
+F 0 "D12" V 3950 1250 50  0000 C CNN
+F 1 "1N914" V 4050 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4050 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4050 1150 50  0001 C CNN
+	1    4050 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW13
+U 1 1 5C0C335A
+P 3850 1400
+F 0 "SW13" H 3850 1300 50  0000 C CNN
+F 1 "SW_SPST" H 3850 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3850 1400 50  0001 C CNN
+F 3 "" H 3850 1400 50  0001 C CNN
+	1    3850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D13
+U 1 1 5C0C3361
+P 4050 1550
+F 0 "D13" V 3950 1650 50  0000 C CNN
+F 1 "1N914" V 4050 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4050 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4050 1550 50  0001 C CNN
+	1    4050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW14
+U 1 1 5C0C3368
+P 3850 1800
+F 0 "SW14" H 3850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 3850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3850 1800 50  0001 C CNN
+F 3 "" H 3850 1800 50  0001 C CNN
+	1    3850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D14
+U 1 1 5C0C336F
+P 4050 1950
+F 0 "D14" V 3950 2050 50  0000 C CNN
+F 1 "1N914" V 4050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW15
+U 1 1 5C0C3376
+P 3850 2200
+F 0 "SW15" H 3850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 3850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 3850 2200 50  0001 C CNN
+F 3 "" H 3850 2200 50  0001 C CNN
+	1    3850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D15
+U 1 1 5C0C337D
+P 4050 2350
+F 0 "D15" V 3950 2450 50  0000 C CNN
+F 1 "1N914" V 4050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4050 2350 50  0001 C CNN
+	1    4050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 600  3650 1000
+Connection ~ 3650 1000
+Wire Wire Line
+	3650 1000 3650 1400
+Connection ~ 3650 1400
+Wire Wire Line
+	3650 1400 3650 1800
+Connection ~ 3650 1800
+Wire Wire Line
+	3650 1800 3650 2200
+$Comp
+L Switch:SW_SPST SW16
+U 1 1 5C0C371B
+P 4350 600
+F 0 "SW16" H 4350 500 50  0000 C CNN
+F 1 "SW_SPST" H 4350 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4350 600 50  0001 C CNN
+F 3 "" H 4350 600 50  0001 C CNN
+	1    4350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D16
+U 1 1 5C0C3722
+P 4550 750
+F 0 "D16" V 4450 850 50  0000 C CNN
+F 1 "1N914" V 4550 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4550 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4550 750 50  0001 C CNN
+	1    4550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW17
+U 1 1 5C0C3729
+P 4350 1000
+F 0 "SW17" H 4350 900 50  0000 C CNN
+F 1 "SW_SPST" H 4350 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4350 1000 50  0001 C CNN
+F 3 "" H 4350 1000 50  0001 C CNN
+	1    4350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D17
+U 1 1 5C0C3730
+P 4550 1150
+F 0 "D17" V 4450 1250 50  0000 C CNN
+F 1 "1N914" V 4550 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4550 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4550 1150 50  0001 C CNN
+	1    4550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW18
+U 1 1 5C0C3737
+P 4350 1400
+F 0 "SW18" H 4350 1300 50  0000 C CNN
+F 1 "SW_SPST" H 4350 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4350 1400 50  0001 C CNN
+F 3 "" H 4350 1400 50  0001 C CNN
+	1    4350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D18
+U 1 1 5C0C373E
+P 4550 1550
+F 0 "D18" V 4450 1650 50  0000 C CNN
+F 1 "1N914" V 4550 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4550 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW19
+U 1 1 5C0C3745
+P 4350 1800
+F 0 "SW19" H 4350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 4350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4350 1800 50  0001 C CNN
+F 3 "" H 4350 1800 50  0001 C CNN
+	1    4350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D19
+U 1 1 5C0C374C
+P 4550 1950
+F 0 "D19" V 4450 2050 50  0000 C CNN
+F 1 "1N914" V 4550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW20
+U 1 1 5C0C3753
+P 4350 2200
+F 0 "SW20" H 4350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 4350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4350 2200 50  0001 C CNN
+F 3 "" H 4350 2200 50  0001 C CNN
+	1    4350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D20
+U 1 1 5C0C375A
+P 4550 2350
+F 0 "D20" V 4450 2450 50  0000 C CNN
+F 1 "1N914" V 4550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 4550 2350 50  0001 C CNN
+	1    4550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 600  4150 1000
+Connection ~ 4150 1000
+Wire Wire Line
+	4150 1000 4150 1400
+Connection ~ 4150 1400
+Wire Wire Line
+	4150 1400 4150 1800
+Connection ~ 4150 1800
+Wire Wire Line
+	4150 1800 4150 2200
+$Comp
+L Switch:SW_SPST SW21
+U 1 1 5C0C3E5E
+P 4850 600
+F 0 "SW21" H 4850 500 50  0000 C CNN
+F 1 "SW_SPST" H 4850 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4850 600 50  0001 C CNN
+F 3 "" H 4850 600 50  0001 C CNN
+	1    4850 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D21
+U 1 1 5C0C3E65
+P 5050 750
+F 0 "D21" V 4950 850 50  0000 C CNN
+F 1 "1N914" V 5050 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5050 750 50  0001 C CNN
+	1    5050 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW22
+U 1 1 5C0C3E6C
+P 4850 1000
+F 0 "SW22" H 4850 900 50  0000 C CNN
+F 1 "SW_SPST" H 4850 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4850 1000 50  0001 C CNN
+F 3 "" H 4850 1000 50  0001 C CNN
+	1    4850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D22
+U 1 1 5C0C3E73
+P 5050 1150
+F 0 "D22" V 4950 1250 50  0000 C CNN
+F 1 "1N914" V 5050 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5050 1150 50  0001 C CNN
+	1    5050 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW23
+U 1 1 5C0C3E7A
+P 4850 1400
+F 0 "SW23" H 4850 1300 50  0000 C CNN
+F 1 "SW_SPST" H 4850 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4850 1400 50  0001 C CNN
+F 3 "" H 4850 1400 50  0001 C CNN
+	1    4850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D23
+U 1 1 5C0C3E81
+P 5050 1550
+F 0 "D23" V 4950 1650 50  0000 C CNN
+F 1 "1N914" V 5050 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5050 1550 50  0001 C CNN
+	1    5050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW24
+U 1 1 5C0C3E88
+P 4850 1800
+F 0 "SW24" H 4850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 4850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4850 1800 50  0001 C CNN
+F 3 "" H 4850 1800 50  0001 C CNN
+	1    4850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D24
+U 1 1 5C0C3E8F
+P 5050 1950
+F 0 "D24" V 4950 2050 50  0000 C CNN
+F 1 "1N914" V 5050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW25
+U 1 1 5C0C3E96
+P 4850 2200
+F 0 "SW25" H 4850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 4850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 4850 2200 50  0001 C CNN
+F 3 "" H 4850 2200 50  0001 C CNN
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D25
+U 1 1 5C0C3E9D
+P 5050 2350
+F 0 "D25" V 4950 2450 50  0000 C CNN
+F 1 "1N914" V 5050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 600  4650 1000
+Connection ~ 4650 1000
+Wire Wire Line
+	4650 1000 4650 1400
+Connection ~ 4650 1400
+Wire Wire Line
+	4650 1400 4650 1800
+Connection ~ 4650 1800
+Wire Wire Line
+	4650 1800 4650 2200
+$Comp
+L Switch:SW_SPST SW26
+U 1 1 5C0C46AF
+P 5350 600
+F 0 "SW26" H 5350 500 50  0000 C CNN
+F 1 "SW_SPST" H 5350 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 5350 600 50  0001 C CNN
+F 3 "" H 5350 600 50  0001 C CNN
+	1    5350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D26
+U 1 1 5C0C46B6
+P 5550 750
+F 0 "D26" V 5450 850 50  0000 C CNN
+F 1 "1N914" V 5550 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5550 750 50  0001 C CNN
+	1    5550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW27
+U 1 1 5C0C46BD
+P 5350 1000
+F 0 "SW27" H 5350 900 50  0000 C CNN
+F 1 "SW_SPST" H 5350 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 5350 1000 50  0001 C CNN
+F 3 "" H 5350 1000 50  0001 C CNN
+	1    5350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D27
+U 1 1 5C0C46C4
+P 5550 1150
+F 0 "D27" V 5450 1250 50  0000 C CNN
+F 1 "1N914" V 5550 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5550 1150 50  0001 C CNN
+	1    5550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW28
+U 1 1 5C0C46CB
+P 5350 1400
+F 0 "SW28" H 5350 1300 50  0000 C CNN
+F 1 "SW_SPST" H 5350 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 5350 1400 50  0001 C CNN
+F 3 "" H 5350 1400 50  0001 C CNN
+	1    5350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D28
+U 1 1 5C0C46D2
+P 5550 1550
+F 0 "D28" V 5450 1650 50  0000 C CNN
+F 1 "1N914" V 5550 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5550 1550 50  0001 C CNN
+	1    5550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW29
+U 1 1 5C0C46D9
+P 5350 1800
+F 0 "SW29" H 5350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 5350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 5350 1800 50  0001 C CNN
+F 3 "" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D29
+U 1 1 5C0C46E0
+P 5550 1950
+F 0 "D29" V 5450 2050 50  0000 C CNN
+F 1 "1N914" V 5550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5550 1950 50  0001 C CNN
+	1    5550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW30
+U 1 1 5C0C46E7
+P 5350 2200
+F 0 "SW30" H 5350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 5350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 5350 2200 50  0001 C CNN
+F 3 "" H 5350 2200 50  0001 C CNN
+	1    5350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D30
+U 1 1 5C0C46EE
+P 5550 2350
+F 0 "D30" V 5450 2450 50  0000 C CNN
+F 1 "1N914" V 5550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5550 2350 50  0001 C CNN
+	1    5550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 600  5150 1000
+Connection ~ 5150 1000
+Wire Wire Line
+	5150 1000 5150 1400
+Connection ~ 5150 1400
+Wire Wire Line
+	5150 1400 5150 1800
+Connection ~ 5150 1800
+Wire Wire Line
+	5150 1800 5150 2200
+$Comp
+L Switch:SW_SPST SW31
+U 1 1 5C0C51F4
+P 5850 1800
+F 0 "SW31" H 5850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 5850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 5850 1800 50  0001 C CNN
+F 3 "" H 5850 1800 50  0001 C CNN
+	1    5850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D31
+U 1 1 5C0C51FB
+P 6050 1950
+F 0 "D31" V 5950 2050 50  0000 C CNN
+F 1 "1N914" V 6050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 6050 1950 50  0001 C CNN
+	1    6050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW32
+U 1 1 5C0C5202
+P 5850 2200
+F 0 "SW32" H 5850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 5850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 5850 2200 50  0001 C CNN
+F 3 "" H 5850 2200 50  0001 C CNN
+	1    5850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D32
+U 1 1 5C0C5209
+P 6050 2350
+F 0 "D32" V 5950 2450 50  0000 C CNN
+F 1 "1N914" V 6050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 6050 2350 50  0001 C CNN
+	1    6050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 1800 5650 2200
+$Comp
+L Switch:SW_SPST SW33
+U 1 1 5C0C6105
+P 6350 1800
+F 0 "SW33" H 6350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 6350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 6350 1800 50  0001 C CNN
+F 3 "" H 6350 1800 50  0001 C CNN
+	1    6350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D33
+U 1 1 5C0C610C
+P 6550 1950
+F 0 "D33" V 6450 2050 50  0000 C CNN
+F 1 "1N914" V 6550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 6550 1950 50  0001 C CNN
+	1    6550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW34
+U 1 1 5C0C6113
+P 6350 2200
+F 0 "SW34" H 6350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 6350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 6350 2200 50  0001 C CNN
+F 3 "" H 6350 2200 50  0001 C CNN
+	1    6350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D34
+U 1 1 5C0C611A
+P 6550 2350
+F 0 "D34" V 6450 2450 50  0000 C CNN
+F 1 "1N914" V 6550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 6550 2350 50  0001 C CNN
+	1    6550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 1800 6150 2200
+$Comp
+L Switch:SW_SPST SW35
+U 1 1 5C0C7490
+P 6850 1800
+F 0 "SW35" H 6850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 6850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 6850 1800 50  0001 C CNN
+F 3 "" H 6850 1800 50  0001 C CNN
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D35
+U 1 1 5C0C7497
+P 7050 1950
+F 0 "D35" V 6950 2050 50  0000 C CNN
+F 1 "1N914" V 7050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 7050 1950 50  0001 C CNN
+	1    7050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW36
+U 1 1 5C0C749E
+P 6850 2200
+F 0 "SW36" H 6850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 6850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 6850 2200 50  0001 C CNN
+F 3 "" H 6850 2200 50  0001 C CNN
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D36
+U 1 1 5C0C74A5
+P 7050 2350
+F 0 "D36" V 6950 2450 50  0000 C CNN
+F 1 "1N914" V 7050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 7050 2350 50  0001 C CNN
+	1    7050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 1800 6650 2200
+$Comp
+L Switch:SW_SPST SW37
+U 1 1 5C0C8EBD
+P 7350 1800
+F 0 "SW37" H 7350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 7350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 7350 1800 50  0001 C CNN
+F 3 "" H 7350 1800 50  0001 C CNN
+	1    7350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D37
+U 1 1 5C0C8EC4
+P 7550 1950
+F 0 "D37" V 7450 2050 50  0000 C CNN
+F 1 "1N914" V 7550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 7550 1950 50  0001 C CNN
+	1    7550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW38
+U 1 1 5C0C8ECB
+P 7350 2200
+F 0 "SW38" H 7350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 7350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 7350 2200 50  0001 C CNN
+F 3 "" H 7350 2200 50  0001 C CNN
+	1    7350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D38
+U 1 1 5C0C8ED2
+P 7550 2350
+F 0 "D38" V 7450 2450 50  0000 C CNN
+F 1 "1N914" V 7550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 7550 2350 50  0001 C CNN
+	1    7550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 1800 7150 2200
+$Comp
+L Switch:SW_SPST SW39
+U 1 1 5C0CF269
+P 7850 1800
+F 0 "SW39" H 7850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 7850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 7850 1800 50  0001 C CNN
+F 3 "" H 7850 1800 50  0001 C CNN
+	1    7850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D39
+U 1 1 5C0CF270
+P 8050 1950
+F 0 "D39" V 7950 2050 50  0000 C CNN
+F 1 "1N914" V 8050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 8050 1950 50  0001 C CNN
+	1    8050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW40
+U 1 1 5C0CF277
+P 7850 2200
+F 0 "SW40" H 7850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 7850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 7850 2200 50  0001 C CNN
+F 3 "" H 7850 2200 50  0001 C CNN
+	1    7850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D40
+U 1 1 5C0CF27E
+P 8050 2350
+F 0 "D40" V 7950 2450 50  0000 C CNN
+F 1 "1N914" V 8050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 8050 2350 50  0001 C CNN
+	1    8050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 1800 7650 2200
+$Comp
+L Switch:SW_SPST SW41
+U 1 1 5C0CF29E
+P 8350 600
+F 0 "SW41" H 8350 500 50  0000 C CNN
+F 1 "SW_SPST" H 8350 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8350 600 50  0001 C CNN
+F 3 "" H 8350 600 50  0001 C CNN
+	1    8350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D41
+U 1 1 5C0CF2A5
+P 8550 750
+F 0 "D41" V 8450 850 50  0000 C CNN
+F 1 "1N914" V 8550 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8550 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 8550 750 50  0001 C CNN
+	1    8550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW42
+U 1 1 5C0CF2AC
+P 8350 1000
+F 0 "SW42" H 8350 900 50  0000 C CNN
+F 1 "SW_SPST" H 8350 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8350 1000 50  0001 C CNN
+F 3 "" H 8350 1000 50  0001 C CNN
+	1    8350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D42
+U 1 1 5C0CF2B3
+P 8550 1150
+F 0 "D42" V 8450 1250 50  0000 C CNN
+F 1 "1N914" V 8550 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8550 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 8550 1150 50  0001 C CNN
+	1    8550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW43
+U 1 1 5C0CF2BA
+P 8350 1400
+F 0 "SW43" H 8350 1300 50  0000 C CNN
+F 1 "SW_SPST" H 8350 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8350 1400 50  0001 C CNN
+F 3 "" H 8350 1400 50  0001 C CNN
+	1    8350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D43
+U 1 1 5C0CF2C1
+P 8550 1550
+F 0 "D43" V 8450 1650 50  0000 C CNN
+F 1 "1N914" V 8550 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8550 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 8550 1550 50  0001 C CNN
+	1    8550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW44
+U 1 1 5C0CF2C8
+P 8350 1800
+F 0 "SW44" H 8350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 8350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8350 1800 50  0001 C CNN
+F 3 "" H 8350 1800 50  0001 C CNN
+	1    8350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D44
+U 1 1 5C0CF2CF
+P 8550 1950
+F 0 "D44" V 8450 2050 50  0000 C CNN
+F 1 "1N914" V 8550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 8550 1950 50  0001 C CNN
+	1    8550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW45
+U 1 1 5C0CF2D6
+P 8350 2200
+F 0 "SW45" H 8350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 8350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8350 2200 50  0001 C CNN
+F 3 "" H 8350 2200 50  0001 C CNN
+	1    8350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D45
+U 1 1 5C0CF2DD
+P 8550 2350
+F 0 "D45" V 8450 2450 50  0000 C CNN
+F 1 "1N914" V 8550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 8550 2350 50  0001 C CNN
+	1    8550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 600  8150 1000
+Connection ~ 8150 1000
+Wire Wire Line
+	8150 1000 8150 1400
+Connection ~ 8150 1400
+Wire Wire Line
+	8150 1400 8150 1800
+Connection ~ 8150 1800
+Wire Wire Line
+	8150 1800 8150 2200
+$Comp
+L Switch:SW_SPST SW46
+U 1 1 5C0CF2FD
+P 8850 600
+F 0 "SW46" H 8850 500 50  0000 C CNN
+F 1 "SW_SPST" H 8850 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8850 600 50  0001 C CNN
+F 3 "" H 8850 600 50  0001 C CNN
+	1    8850 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D46
+U 1 1 5C0CF304
+P 9050 750
+F 0 "D46" V 8950 850 50  0000 C CNN
+F 1 "1N914" V 9050 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9050 750 50  0001 C CNN
+	1    9050 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW47
+U 1 1 5C0CF30B
+P 8850 1000
+F 0 "SW47" H 8850 900 50  0000 C CNN
+F 1 "SW_SPST" H 8850 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8850 1000 50  0001 C CNN
+F 3 "" H 8850 1000 50  0001 C CNN
+	1    8850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D47
+U 1 1 5C0CF312
+P 9050 1150
+F 0 "D47" V 8950 1250 50  0000 C CNN
+F 1 "1N914" V 9050 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9050 1150 50  0001 C CNN
+	1    9050 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW48
+U 1 1 5C0CF319
+P 8850 1400
+F 0 "SW48" H 8850 1300 50  0000 C CNN
+F 1 "SW_SPST" H 8850 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8850 1400 50  0001 C CNN
+F 3 "" H 8850 1400 50  0001 C CNN
+	1    8850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D48
+U 1 1 5C0CF320
+P 9050 1550
+F 0 "D48" V 8950 1650 50  0000 C CNN
+F 1 "1N914" V 9050 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9050 1550 50  0001 C CNN
+	1    9050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW49
+U 1 1 5C0CF327
+P 8850 1800
+F 0 "SW49" H 8850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 8850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8850 1800 50  0001 C CNN
+F 3 "" H 8850 1800 50  0001 C CNN
+	1    8850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D49
+U 1 1 5C0CF32E
+P 9050 1950
+F 0 "D49" V 8950 2050 50  0000 C CNN
+F 1 "1N914" V 9050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9050 1950 50  0001 C CNN
+	1    9050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW50
+U 1 1 5C0CF335
+P 8850 2200
+F 0 "SW50" H 8850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 8850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 8850 2200 50  0001 C CNN
+F 3 "" H 8850 2200 50  0001 C CNN
+	1    8850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D50
+U 1 1 5C0CF33C
+P 9050 2350
+F 0 "D50" V 8950 2450 50  0000 C CNN
+F 1 "1N914" V 9050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9050 2350 50  0001 C CNN
+	1    9050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 600  8650 1000
+Connection ~ 8650 1000
+Wire Wire Line
+	8650 1000 8650 1400
+Connection ~ 8650 1400
+Wire Wire Line
+	8650 1400 8650 1800
+Connection ~ 8650 1800
+Wire Wire Line
+	8650 1800 8650 2200
+$Comp
+L Switch:SW_SPST SW51
+U 1 1 5C0CF35C
+P 9350 600
+F 0 "SW51" H 9350 500 50  0000 C CNN
+F 1 "SW_SPST" H 9350 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9350 600 50  0001 C CNN
+F 3 "" H 9350 600 50  0001 C CNN
+	1    9350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D51
+U 1 1 5C0CF363
+P 9550 750
+F 0 "D51" V 9450 850 50  0000 C CNN
+F 1 "1N914" V 9550 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9550 750 50  0001 C CNN
+	1    9550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW52
+U 1 1 5C0CF36A
+P 9350 1000
+F 0 "SW52" H 9350 900 50  0000 C CNN
+F 1 "SW_SPST" H 9350 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9350 1000 50  0001 C CNN
+F 3 "" H 9350 1000 50  0001 C CNN
+	1    9350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D52
+U 1 1 5C0CF371
+P 9550 1150
+F 0 "D52" V 9450 1250 50  0000 C CNN
+F 1 "1N914" V 9550 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9550 1150 50  0001 C CNN
+	1    9550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW53
+U 1 1 5C0CF378
+P 9350 1400
+F 0 "SW53" H 9350 1300 50  0000 C CNN
+F 1 "SW_SPST" H 9350 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9350 1400 50  0001 C CNN
+F 3 "" H 9350 1400 50  0001 C CNN
+	1    9350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D53
+U 1 1 5C0CF37F
+P 9550 1550
+F 0 "D53" V 9450 1650 50  0000 C CNN
+F 1 "1N914" V 9550 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9550 1550 50  0001 C CNN
+	1    9550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW54
+U 1 1 5C0CF386
+P 9350 1800
+F 0 "SW54" H 9350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 9350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9350 1800 50  0001 C CNN
+F 3 "" H 9350 1800 50  0001 C CNN
+	1    9350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D54
+U 1 1 5C0CF38D
+P 9550 1950
+F 0 "D54" V 9450 2050 50  0000 C CNN
+F 1 "1N914" V 9550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9550 1950 50  0001 C CNN
+	1    9550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW55
+U 1 1 5C0CF394
+P 9350 2200
+F 0 "SW55" H 9350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 9350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9350 2200 50  0001 C CNN
+F 3 "" H 9350 2200 50  0001 C CNN
+	1    9350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D55
+U 1 1 5C0CF39B
+P 9550 2350
+F 0 "D55" V 9450 2450 50  0000 C CNN
+F 1 "1N914" V 9550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9550 2350 50  0001 C CNN
+	1    9550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 600  9150 1000
+Connection ~ 9150 1000
+Wire Wire Line
+	9150 1000 9150 1400
+Connection ~ 9150 1400
+Wire Wire Line
+	9150 1400 9150 1800
+Connection ~ 9150 1800
+Wire Wire Line
+	9150 1800 9150 2200
+$Comp
+L Switch:SW_SPST SW56
+U 1 1 5C0CF3BB
+P 9850 600
+F 0 "SW56" H 9850 500 50  0000 C CNN
+F 1 "SW_SPST" H 9850 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9850 600 50  0001 C CNN
+F 3 "" H 9850 600 50  0001 C CNN
+	1    9850 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D56
+U 1 1 5C0CF3C2
+P 10050 750
+F 0 "D56" V 9950 850 50  0000 C CNN
+F 1 "1N914" V 10050 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10050 750 50  0001 C CNN
+	1    10050 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW57
+U 1 1 5C0CF3C9
+P 9850 1000
+F 0 "SW57" H 9850 900 50  0000 C CNN
+F 1 "SW_SPST" H 9850 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9850 1000 50  0001 C CNN
+F 3 "" H 9850 1000 50  0001 C CNN
+	1    9850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D57
+U 1 1 5C0CF3D0
+P 10050 1150
+F 0 "D57" V 9950 1250 50  0000 C CNN
+F 1 "1N914" V 10050 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10050 1150 50  0001 C CNN
+	1    10050 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW58
+U 1 1 5C0CF3D7
+P 9850 1400
+F 0 "SW58" H 9850 1300 50  0000 C CNN
+F 1 "SW_SPST" H 9850 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9850 1400 50  0001 C CNN
+F 3 "" H 9850 1400 50  0001 C CNN
+	1    9850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D58
+U 1 1 5C0CF3DE
+P 10050 1550
+F 0 "D58" V 9950 1650 50  0000 C CNN
+F 1 "1N914" V 10050 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10050 1550 50  0001 C CNN
+	1    10050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW59
+U 1 1 5C0CF3E5
+P 9850 1800
+F 0 "SW59" H 9850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 9850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9850 1800 50  0001 C CNN
+F 3 "" H 9850 1800 50  0001 C CNN
+	1    9850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D59
+U 1 1 5C0CF3EC
+P 10050 1950
+F 0 "D59" V 9950 2050 50  0000 C CNN
+F 1 "1N914" V 10050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10050 1950 50  0001 C CNN
+	1    10050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW60
+U 1 1 5C0CF3F3
+P 9850 2200
+F 0 "SW60" H 9850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 9850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 9850 2200 50  0001 C CNN
+F 3 "" H 9850 2200 50  0001 C CNN
+	1    9850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D60
+U 1 1 5C0CF3FA
+P 10050 2350
+F 0 "D60" V 9950 2450 50  0000 C CNN
+F 1 "1N914" V 10050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10050 2350 50  0001 C CNN
+	1    10050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 600  9650 1000
+Connection ~ 9650 1000
+Wire Wire Line
+	9650 1000 9650 1400
+Connection ~ 9650 1400
+Wire Wire Line
+	9650 1400 9650 1800
+Connection ~ 9650 1800
+Wire Wire Line
+	9650 1800 9650 2200
+$Comp
+L Switch:SW_SPST SW61
+U 1 1 5C0CF41A
+P 10350 600
+F 0 "SW61" H 10350 500 50  0000 C CNN
+F 1 "SW_SPST" H 10350 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10350 600 50  0001 C CNN
+F 3 "" H 10350 600 50  0001 C CNN
+	1    10350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D61
+U 1 1 5C0CF421
+P 10550 750
+F 0 "D61" V 10450 850 50  0000 C CNN
+F 1 "1N914" V 10550 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10550 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10550 750 50  0001 C CNN
+	1    10550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW62
+U 1 1 5C0CF428
+P 10350 1000
+F 0 "SW62" H 10350 900 50  0000 C CNN
+F 1 "SW_SPST" H 10350 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10350 1000 50  0001 C CNN
+F 3 "" H 10350 1000 50  0001 C CNN
+	1    10350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D62
+U 1 1 5C0CF42F
+P 10550 1150
+F 0 "D62" V 10450 1250 50  0000 C CNN
+F 1 "1N914" V 10550 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10550 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10550 1150 50  0001 C CNN
+	1    10550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW63
+U 1 1 5C0CF436
+P 10350 1400
+F 0 "SW63" H 10350 1300 50  0000 C CNN
+F 1 "SW_SPST" H 10350 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10350 1400 50  0001 C CNN
+F 3 "" H 10350 1400 50  0001 C CNN
+	1    10350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D63
+U 1 1 5C0CF43D
+P 10550 1550
+F 0 "D63" V 10450 1650 50  0000 C CNN
+F 1 "1N914" V 10550 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10550 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10550 1550 50  0001 C CNN
+	1    10550 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW64
+U 1 1 5C0CF444
+P 10350 1800
+F 0 "SW64" H 10350 1700 50  0000 C CNN
+F 1 "SW_SPST" H 10350 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10350 1800 50  0001 C CNN
+F 3 "" H 10350 1800 50  0001 C CNN
+	1    10350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D64
+U 1 1 5C0CF44B
+P 10550 1950
+F 0 "D64" V 10450 2050 50  0000 C CNN
+F 1 "1N914" V 10550 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10550 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10550 1950 50  0001 C CNN
+	1    10550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW65
+U 1 1 5C0CF452
+P 10350 2200
+F 0 "SW65" H 10350 2100 50  0000 C CNN
+F 1 "SW_SPST" H 10350 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10350 2200 50  0001 C CNN
+F 3 "" H 10350 2200 50  0001 C CNN
+	1    10350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D65
+U 1 1 5C0CF459
+P 10550 2350
+F 0 "D65" V 10450 2450 50  0000 C CNN
+F 1 "1N914" V 10550 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10550 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 10550 2350 50  0001 C CNN
+	1    10550 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10150 600  10150 1000
+Connection ~ 10150 1000
+Wire Wire Line
+	10150 1000 10150 1400
+Connection ~ 10150 1400
+Wire Wire Line
+	10150 1400 10150 1800
+Connection ~ 10150 1800
+Wire Wire Line
+	10150 1800 10150 2200
+$Comp
+L Switch:SW_SPST SW66
+U 1 1 5C0CF479
+P 10850 600
+F 0 "SW66" H 10850 500 50  0000 C CNN
+F 1 "SW_SPST" H 10850 500 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10850 600 50  0001 C CNN
+F 3 "" H 10850 600 50  0001 C CNN
+	1    10850 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D66
+U 1 1 5C0CF480
+P 11050 750
+F 0 "D66" V 10950 850 50  0000 C CNN
+F 1 "1N914" V 11050 950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11050 575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 11050 750 50  0001 C CNN
+	1    11050 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW67
+U 1 1 5C0CF487
+P 10850 1000
+F 0 "SW67" H 10850 900 50  0000 C CNN
+F 1 "SW_SPST" H 10850 900 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10850 1000 50  0001 C CNN
+F 3 "" H 10850 1000 50  0001 C CNN
+	1    10850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D67
+U 1 1 5C0CF48E
+P 11050 1150
+F 0 "D67" V 10950 1250 50  0000 C CNN
+F 1 "1N914" V 11050 1350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11050 975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 11050 1150 50  0001 C CNN
+	1    11050 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW68
+U 1 1 5C0CF495
+P 10850 1400
+F 0 "SW68" H 10850 1300 50  0000 C CNN
+F 1 "SW_SPST" H 10850 1300 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10850 1400 50  0001 C CNN
+F 3 "" H 10850 1400 50  0001 C CNN
+	1    10850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D68
+U 1 1 5C0CF49C
+P 11050 1550
+F 0 "D68" V 10950 1650 50  0000 C CNN
+F 1 "1N914" V 11050 1750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11050 1375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 11050 1550 50  0001 C CNN
+	1    11050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW69
+U 1 1 5C0CF4A3
+P 10850 1800
+F 0 "SW69" H 10850 1700 50  0000 C CNN
+F 1 "SW_SPST" H 10850 1700 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10850 1800 50  0001 C CNN
+F 3 "" H 10850 1800 50  0001 C CNN
+	1    10850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D69
+U 1 1 5C0CF4AA
+P 11050 1950
+F 0 "D69" V 10950 2050 50  0000 C CNN
+F 1 "1N914" V 11050 2150 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11050 1775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 11050 1950 50  0001 C CNN
+	1    11050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW70
+U 1 1 5C0CF4B1
+P 10850 2200
+F 0 "SW70" H 10850 2100 50  0000 C CNN
+F 1 "SW_SPST" H 10850 2100 50  0001 C CNN
+F 2 "keyswitches:PG1350_rotatable" H 10850 2200 50  0001 C CNN
+F 3 "" H 10850 2200 50  0001 C CNN
+	1    10850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D70
+U 1 1 5C0CF4B8
+P 11050 2350
+F 0 "D70" V 10950 2450 50  0000 C CNN
+F 1 "1N914" V 11050 2550 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11050 2175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 11050 2350 50  0001 C CNN
+	1    11050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10650 600  10650 1000
+Connection ~ 10650 1000
+Wire Wire Line
+	10650 1000 10650 1400
+Connection ~ 10650 1400
+Wire Wire Line
+	10650 1400 10650 1800
+Connection ~ 10650 1800
+Wire Wire Line
+	10650 1800 10650 2200
+Wire Wire Line
+	11050 900  10550 900 
+Connection ~ 3550 900 
+Connection ~ 4050 900 
+Connection ~ 4550 900 
+Wire Wire Line
+	4550 900  4050 900 
+Connection ~ 5050 900 
+Wire Wire Line
+	5050 900  4550 900 
+Connection ~ 5550 900 
+Connection ~ 8550 900 
+Wire Wire Line
+	8550 900  5550 900 
+Connection ~ 9050 900 
+Wire Wire Line
+	9050 900  8550 900 
+Connection ~ 9550 900 
+Wire Wire Line
+	9550 900  9050 900 
+Connection ~ 10050 900 
+Wire Wire Line
+	10050 900  9550 900 
+Connection ~ 10550 900 
+Wire Wire Line
+	10550 900  10050 900 
+Wire Wire Line
+	3000 1300 3550 1300
+Connection ~ 3550 1300
+Connection ~ 4050 1300
+Wire Wire Line
+	4050 1300 4550 1300
+Connection ~ 4550 1300
+Wire Wire Line
+	4550 1300 5050 1300
+Connection ~ 8550 1300
+Wire Wire Line
+	8550 1300 9050 1300
+Connection ~ 9050 1300
+Wire Wire Line
+	9050 1300 9550 1300
+Connection ~ 9550 1300
+Wire Wire Line
+	9550 1300 10050 1300
+Connection ~ 10050 1300
+Wire Wire Line
+	10050 1300 10550 1300
+Connection ~ 10550 1300
+Wire Wire Line
+	10550 1300 11050 1300
+Wire Wire Line
+	11050 1700 10550 1700
+Connection ~ 3550 1700
+Connection ~ 4050 1700
+Connection ~ 4550 1700
+Wire Wire Line
+	4550 1700 4050 1700
+Connection ~ 8550 1700
+Wire Wire Line
+	8550 1700 5550 1700
+Connection ~ 9050 1700
+Wire Wire Line
+	9050 1700 8550 1700
+Connection ~ 9550 1700
+Wire Wire Line
+	9550 1700 9050 1700
+Connection ~ 10050 1700
+Wire Wire Line
+	10050 1700 9550 1700
+Connection ~ 10550 1700
+Wire Wire Line
+	10550 1700 10050 1700
+Wire Wire Line
+	3000 2100 3550 2100
+Connection ~ 3550 2100
+Connection ~ 4050 2100
+Wire Wire Line
+	4050 2100 4550 2100
+Connection ~ 4550 2100
+Wire Wire Line
+	4550 2100 5050 2100
+Connection ~ 5050 2100
+Wire Wire Line
+	5050 2100 5550 2100
+Connection ~ 5550 2100
+Wire Wire Line
+	5550 2100 6050 2100
+Connection ~ 6050 2100
+Wire Wire Line
+	6050 2100 6550 2100
+Connection ~ 6550 2100
+Wire Wire Line
+	6550 2100 7050 2100
+Connection ~ 7050 2100
+Wire Wire Line
+	7050 2100 7550 2100
+Connection ~ 7550 2100
+Connection ~ 8050 2100
+Connection ~ 8550 2100
+Wire Wire Line
+	8550 2100 9050 2100
+Connection ~ 9050 2100
+Wire Wire Line
+	9050 2100 9550 2100
+Connection ~ 9550 2100
+Wire Wire Line
+	9550 2100 10050 2100
+Connection ~ 10050 2100
+Wire Wire Line
+	10050 2100 10550 2100
+Connection ~ 10550 2100
+Wire Wire Line
+	10550 2100 11050 2100
+Wire Wire Line
+	11050 2500 10550 2500
+Connection ~ 3550 2500
+Connection ~ 4050 2500
+Connection ~ 4550 2500
+Wire Wire Line
+	4550 2500 4050 2500
+Connection ~ 5050 2500
+Wire Wire Line
+	5050 2500 4550 2500
+Connection ~ 5550 2500
+Wire Wire Line
+	5550 2500 5050 2500
+Connection ~ 6050 2500
+Wire Wire Line
+	6050 2500 5550 2500
+Connection ~ 6550 2500
+Wire Wire Line
+	6550 2500 6050 2500
+Connection ~ 7050 2500
+Wire Wire Line
+	7050 2500 6550 2500
+Connection ~ 7550 2500
+Wire Wire Line
+	7550 2500 7050 2500
+Connection ~ 8050 2500
+Connection ~ 8550 2500
+Wire Wire Line
+	8550 2500 8050 2500
+Connection ~ 9050 2500
+Wire Wire Line
+	9050 2500 8550 2500
+Connection ~ 9550 2500
+Wire Wire Line
+	9550 2500 9050 2500
+Connection ~ 10050 2500
+Wire Wire Line
+	10050 2500 9550 2500
+Connection ~ 10550 2500
+Wire Wire Line
+	10550 2500 10050 2500
+Wire Wire Line
+	3000 1300 2350 1300
+Connection ~ 3000 1300
+Wire Wire Line
+	2350 1700 3000 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 2100 2350 2100
+Connection ~ 3000 2100
+Wire Wire Line
+	3000 2500 2350 2500
+Connection ~ 3000 2500
+Wire Wire Line
+	2600 2200 2600 2600
+Wire Wire Line
+	2600 2600 2800 2600
+Connection ~ 2600 2200
+Wire Wire Line
+	10650 2200 10650 2600
+Wire Wire Line
+	10150 2200 10150 2600
+Wire Wire Line
+	10150 2600 10350 2600
+Wire Wire Line
+	4050 2500 3550 2500
+Wire Wire Line
+	3550 2500 3000 2500
+Wire Wire Line
+	3550 2100 4050 2100
+Wire Wire Line
+	4050 1700 3550 1700
+Wire Wire Line
+	3550 1700 3000 1700
+Wire Wire Line
+	3550 1300 4050 1300
+Wire Wire Line
+	4050 900  3550 900 
+Wire Wire Line
+	3550 900  3000 900 
+Wire Wire Line
+	9650 2200 9650 2600
+Wire Wire Line
+	9850 2600 9650 2600
+Wire Wire Line
+	9150 2200 9150 2600
+Wire Wire Line
+	9150 2600 9350 2600
+Wire Wire Line
+	8650 2200 8650 2600
+Wire Wire Line
+	8650 2600 8850 2600
+Wire Wire Line
+	10850 2600 10650 2600
+Wire Wire Line
+	8150 2200 8150 2600
+Wire Wire Line
+	8150 2600 8350 2600
+Wire Wire Line
+	7650 2200 7650 2600
+Wire Wire Line
+	7650 2600 7850 2600
+Wire Wire Line
+	7150 2200 7150 2600
+Wire Wire Line
+	7150 2600 7350 2600
+Wire Wire Line
+	6650 2200 6650 2600
+Wire Wire Line
+	6650 2600 6850 2600
+Wire Wire Line
+	6150 2200 6150 2600
+Wire Wire Line
+	6150 2600 6350 2600
+Wire Wire Line
+	5650 2200 5650 2600
+Wire Wire Line
+	5650 2600 5900 2600
+Wire Wire Line
+	5150 2200 5150 2600
+Wire Wire Line
+	5150 2600 5350 2600
+Wire Wire Line
+	4650 2200 4650 2600
+Wire Wire Line
+	4650 2600 4850 2600
+Wire Wire Line
+	4150 2200 4150 2600
+Wire Wire Line
+	4150 2600 4350 2600
+Wire Wire Line
+	3650 2200 3650 2600
+Wire Wire Line
+	3650 2600 3850 2600
+Wire Wire Line
+	3150 2200 3150 2600
+Wire Wire Line
+	3150 2600 3350 2600
+Connection ~ 3000 900 
+Wire Wire Line
+	3000 900  2350 900 
+Text Label 2350 900  0    50   ~ 0
+R4
+Text Label 2350 1300 0    50   ~ 0
+R3
+Text Label 2350 1700 0    50   ~ 0
+R2
+Text Label 2350 2100 0    50   ~ 0
+R1
+Text Label 2350 2500 0    50   ~ 0
+R0
+Text Label 2700 2600 0    50   ~ 0
+C0
+Text Label 10850 2600 2    50   ~ 0
+C16
+Connection ~ 3150 2200
+Connection ~ 3650 2200
+Connection ~ 4150 2200
+Connection ~ 4650 2200
+Connection ~ 5150 2200
+Connection ~ 5650 2200
+Connection ~ 8150 2200
+Connection ~ 8650 2200
+Connection ~ 9150 2200
+Connection ~ 9650 2200
+Connection ~ 10150 2200
+Connection ~ 10650 2200
+Text Label 10200 2600 0    50   ~ 0
+C15
+Connection ~ 6150 2200
+Connection ~ 6650 2200
+Connection ~ 7150 2200
+Connection ~ 7650 2200
+Wire Wire Line
+	5550 1300 8550 1300
+Wire Wire Line
+	8050 2100 8550 2100
+Wire Wire Line
+	7550 2100 8050 2100
+Wire Wire Line
+	5050 900  5550 900 
+Wire Wire Line
+	7550 2500 8050 2500
+Wire Wire Line
+	5050 1300 5550 1300
+Connection ~ 5050 1300
+Connection ~ 5550 1300
+Wire Wire Line
+	4550 1700 5050 1700
+Connection ~ 5550 1700
+Connection ~ 5050 1700
+Wire Wire Line
+	5050 1700 5550 1700
+Text Label 9700 2600 0    50   ~ 0
+C14
+Text Label 9200 2600 0    50   ~ 0
+C13
+Text Label 8700 2600 0    50   ~ 0
+C12
+Text Label 8200 2600 0    50   ~ 0
+C11
+Text Label 7700 2600 0    50   ~ 0
+C10
+Text Label 7250 2600 0    50   ~ 0
+C9
+Text Label 6750 2600 0    50   ~ 0
+C8
+Text Label 6250 2600 0    50   ~ 0
+C7
+Text Label 5800 2600 0    50   ~ 0
+C6
+Text Label 5250 2600 0    50   ~ 0
+C5
+Text Label 4750 2600 0    50   ~ 0
+C4
+Text Label 4250 2600 0    50   ~ 0
+C3
+Text Label 3750 2600 0    50   ~ 0
+C2
+Text Label 3250 2600 0    50   ~ 0
+C1
+$Comp
+L bb1-rescue:Teensy3.6-teensy U1
+U 1 1 5C2EC406
+P 3250 5150
+F 0 "U1" H 3250 7537 60  0000 C CNN
+F 1 "Teensy3.6" H 3250 7431 60  0000 C CNN
+F 2 "teensy:Teensy35_36" H 3250 5150 60  0001 C CNN
+F 3 "" H 3250 5150 60  0000 C CNN
+	1    3250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J2
+U 1 1 5C2EF258
+P 8350 3750
+F 0 "J2" H 8400 4867 50  0000 C CNN
+F 1 "ER-TFT035" H 8400 4776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 8350 3750 50  0001 C CNN
+F 3 "~" H 8350 3750 50  0001 C CNN
+	1    8350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5C2F1CF6
+P 1050 5650
+F 0 "BT1" H 800 5650 50  0000 L CNN
+F 1 "Battery_Cell" H 500 5750 50  0000 L CNN
+F 2 "BC-2003:BC-2003" V 1050 5710 50  0001 C CNN
+F 3 "~" V 1050 5710 50  0001 C CNN
+	1    1050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J1
+U 1 1 5C2F3877
+P 5000 5650
+F 0 "J1" H 4770 5641 50  0000 R CNN
+F 1 "USB_A" H 4770 5550 50  0000 R CNN
+F 2 "digikey-footprints:USB_A_Female_UE27AC54100" H 5150 5600 50  0001 C CNN
+F 3 " ~" H 5150 5600 50  0001 C CNN
+	1    5000 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW71
+U 1 1 5C2F76C3
+P 1500 5750
+F 0 "SW71" H 1500 5985 50  0000 C CNN
+F 1 "PGM" H 1500 5894 50  0000 C CNN
+F 2 "EVQPSL:EVQPSL" H 1500 5750 50  0001 C CNN
+F 3 "" H 1500 5750 50  0001 C CNN
+	1    1500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW72
+U 1 1 5C2F7EF7
+P 1500 6100
+F 0 "SW72" H 1500 6335 50  0000 C CNN
+F 1 "RST" H 1500 6244 50  0000 C CNN
+F 2 "EVQPSL:EVQPSL" H 1500 6100 50  0001 C CNN
+F 3 "" H 1500 6100 50  0001 C CNN
+	1    1500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C32697C
+P 5100 6100
+F 0 "#PWR0102" H 5100 5850 50  0001 C CNN
+F 1 "GND" H 5105 5927 50  0000 C CNN
+F 2 "" H 5100 6100 50  0001 C CNN
+F 3 "" H 5100 6100 50  0001 C CNN
+	1    5100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C327CE4
+P 4300 5550
+F 0 "#PWR0103" H 4300 5300 50  0001 C CNN
+F 1 "GND" V 4305 5377 50  0000 C CNN
+F 2 "" H 4300 5550 50  0001 C CNN
+F 3 "" H 4300 5550 50  0001 C CNN
+	1    4300 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5C32A26F
+P 1800 6850
+F 0 "#PWR0104" H 1800 6600 50  0001 C CNN
+F 1 "GND" V 1805 6722 50  0000 R CNN
+F 2 "" H 1800 6850 50  0001 C CNN
+F 3 "" H 1800 6850 50  0001 C CNN
+	1    1800 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C339149
+P 4300 5450
+F 0 "#PWR0105" H 4300 5200 50  0001 C CNN
+F 1 "GND" V 4305 5277 50  0000 C CNN
+F 2 "" H 4300 5450 50  0001 C CNN
+F 3 "" H 4300 5450 50  0001 C CNN
+	1    4300 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5C33CE7F
+P 1800 4450
+F 0 "#PWR0108" H 1800 4300 50  0001 C CNN
+F 1 "+3V3" V 1815 4578 50  0000 L CNN
+F 2 "" H 1800 4450 50  0001 C CNN
+F 3 "" H 1800 4450 50  0001 C CNN
+	1    1800 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 5C3416B1
+P 2050 5550
+F 0 "#PWR0109" H 2050 5400 50  0001 C CNN
+F 1 "+3V3" V 2065 5678 50  0000 L CNN
+F 2 "" H 2050 5550 50  0001 C CNN
+F 3 "" H 2050 5550 50  0001 C CNN
+	1    2050 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5C342850
+P 2050 5650
+F 0 "#PWR0110" H 2050 5400 50  0001 C CNN
+F 1 "GND" V 2055 5522 50  0000 R CNN
+F 2 "" H 2050 5650 50  0001 C CNN
+F 3 "" H 2050 5650 50  0001 C CNN
+	1    2050 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5C357D4B
+P 1300 6200
+F 0 "#PWR0111" H 1300 5950 50  0001 C CNN
+F 1 "GND" H 1305 6027 50  0000 C CNN
+F 2 "" H 1300 6200 50  0001 C CNN
+F 3 "" H 1300 6200 50  0001 C CNN
+	1    1300 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5750 1300 6100
+Connection ~ 1300 6100
+Wire Wire Line
+	1300 6100 1300 6200
+Wire Wire Line
+	1700 5850 1700 6100
+$Comp
+L power:GND #PWR0112
+U 1 1 5C3C1EE2
+P 1050 5800
+F 0 "#PWR0112" H 1050 5550 50  0001 C CNN
+F 1 "GND" H 1055 5627 50  0000 C CNN
+F 2 "" H 1050 5800 50  0001 C CNN
+F 3 "" H 1050 5800 50  0001 C CNN
+	1    1050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5650 4700 5650
+Wire Wire Line
+	4700 5750 4250 5750
+$Comp
+L Device:R_Small_US R1
+U 1 1 5C47449A
+P 5650 7000
+F 0 "R1" H 5718 7046 50  0000 L CNN
+F 1 "2k2" H 5718 6955 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5650 7000 50  0001 C CNN
+F 3 "~" H 5650 7000 50  0001 C CNN
+	1    5650 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 5C475605
+P 5900 7000
+F 0 "R2" H 5968 7046 50  0000 L CNN
+F 1 "2k2" H 5968 6955 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5900 7000 50  0001 C CNN
+F 3 "~" H 5900 7000 50  0001 C CNN
+	1    5900 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6700 5900 6900
+Text Label 4600 7050 0    50   ~ 0
+SCL
+Text Label 4600 7150 0    50   ~ 0
+SDA
+Wire Wire Line
+	1800 6850 2250 6850
+Wire Wire Line
+	4250 5550 4300 5550
+Wire Wire Line
+	4250 5450 4300 5450
+Wire Wire Line
+	2050 5550 2250 5550
+Wire Wire Line
+	2250 5650 2050 5650
+Wire Wire Line
+	1800 4450 2250 4450
+Wire Wire Line
+	1700 5750 2250 5750
+Wire Wire Line
+	1700 5850 2250 5850
+Wire Wire Line
+	5000 6050 5100 6050
+Wire Wire Line
+	5100 6100 5100 6050
+Wire Wire Line
+	5650 7100 5650 7150
+Wire Wire Line
+	5900 7100 5900 7150
+$Comp
+L power:+3V3 #PWR0117
+U 1 1 5C71167F
+P 5950 7150
+F 0 "#PWR0117" H 5950 7000 50  0001 C CNN
+F 1 "+3V3" V 5965 7278 50  0000 L CNN
+F 2 "" H 5950 7150 50  0001 C CNN
+F 3 "" H 5950 7150 50  0001 C CNN
+	1    5950 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 7150 5900 7150
+Connection ~ 5900 7150
+Wire Wire Line
+	5900 7150 5950 7150
+$Comp
+L power:GND #PWR0106
+U 1 1 5C77DCAB
+P 1800 3050
+F 0 "#PWR0106" H 1800 2800 50  0001 C CNN
+F 1 "GND" V 1805 2922 50  0000 R CNN
+F 2 "" H 1800 3050 50  0001 C CNN
+F 3 "" H 1800 3050 50  0001 C CNN
+	1    1800 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 3050 2250 3050
+NoConn ~ 4250 3050
+NoConn ~ 4250 3150
+NoConn ~ 4250 3250
+NoConn ~ 4250 3350
+NoConn ~ 4250 3450
+NoConn ~ 4250 3550
+NoConn ~ 4250 3650
+NoConn ~ 4250 5350
+NoConn ~ 4250 5250
+NoConn ~ 4250 5150
+NoConn ~ 4250 5050
+NoConn ~ 4250 4950
+NoConn ~ 4250 4850
+NoConn ~ 4250 4550
+NoConn ~ 4250 4450
+NoConn ~ 4250 4350
+NoConn ~ 4250 4250
+NoConn ~ 4250 4150
+NoConn ~ 4250 4050
+NoConn ~ 4250 3950
+NoConn ~ 4250 3850
+NoConn ~ 4250 3750
+NoConn ~ 4250 4650
+NoConn ~ 4250 4750
+Wire Notes Line
+	4350 3000 4350 5350
+Text Notes 4450 4600 1    50   ~ 0
+Bottom Only Pins
+Wire Wire Line
+	2250 4050 1800 4050
+Text Label 1800 4050 0    50   ~ 0
+LCD_DC
+Text Label 1800 4150 0    50   ~ 0
+LCD_CS
+Wire Wire Line
+	1800 4250 2250 4250
+Wire Wire Line
+	1800 4350 2250 4350
+Text Label 1800 4250 0    50   ~ 0
+LCD_SDI
+Text Label 1800 4350 0    50   ~ 0
+LCD_SDO
+Wire Wire Line
+	1800 6650 2250 6650
+Wire Wire Line
+	1800 6750 2250 6750
+Text Label 1800 6650 0    50   ~ 0
+DAC0
+Text Label 1800 6750 0    50   ~ 0
+DAC1
+Wire Wire Line
+	1800 6950 2250 6950
+Text Label 1800 6950 0    50   ~ 0
+LCD_SCK
+Wire Wire Line
+	1800 7050 2250 7050
+Text Label 1800 7050 0    50   ~ 0
+CTP_INT
+Wire Wire Line
+	2250 4150 1800 4150
+Wire Wire Line
+	1800 3150 2250 3150
+Wire Wire Line
+	1800 3250 2250 3250
+Wire Wire Line
+	1800 3350 2250 3350
+Wire Wire Line
+	1800 3450 2250 3450
+Wire Wire Line
+	1800 3550 2250 3550
+Text Label 1800 3150 0    50   ~ 0
+R0
+Text Label 1800 3250 0    50   ~ 0
+R1
+Text Label 1800 3350 0    50   ~ 0
+R2
+Text Label 1800 3450 0    50   ~ 0
+R3
+Text Label 1800 3550 0    50   ~ 0
+R4
+$Comp
+L power:+5V #PWR0101
+U 1 1 5CA834D7
+P 4750 6350
+F 0 "#PWR0101" H 4750 6200 50  0001 C CNN
+F 1 "+5V" V 4765 6478 50  0000 L CNN
+F 2 "" H 4750 6350 50  0001 C CNN
+F 3 "" H 4750 6350 50  0001 C CNN
+	1    4750 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5CA873A6
+P 4750 6550
+F 0 "#PWR0107" H 4750 6400 50  0001 C CNN
+F 1 "+3V3" V 4765 6678 50  0000 L CNN
+F 2 "" H 4750 6550 50  0001 C CNN
+F 3 "" H 4750 6550 50  0001 C CNN
+	1    4750 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 6550 4750 6550
+Text Label 4400 6650 0    50   ~ 0
+AUDIO_SD
+Wire Wire Line
+	4250 6850 4750 6850
+Text Label 4750 6850 2    50   ~ 0
+LCD_BL
+Wire Wire Line
+	4650 5450 4650 5850
+Wire Wire Line
+	4250 5850 4650 5850
+Wire Wire Line
+	4650 5450 4700 5450
+NoConn ~ 4250 5950
+NoConn ~ 4250 6050
+NoConn ~ 4250 6150
+Wire Notes Line
+	4350 5900 4350 6300
+Wire Wire Line
+	1800 4550 2250 4550
+Wire Wire Line
+	1800 4650 2250 4650
+Wire Wire Line
+	1800 4750 2250 4750
+Wire Wire Line
+	1800 4850 2250 4850
+Wire Wire Line
+	1800 4950 2250 4950
+Text Label 1800 4550 0    50   ~ 0
+C4
+Text Label 1800 4650 0    50   ~ 0
+C5
+Text Label 1800 4750 0    50   ~ 0
+C6
+Text Label 1800 4850 0    50   ~ 0
+C7
+Text Label 1800 4950 0    50   ~ 0
+C8
+Wire Wire Line
+	1800 5050 2250 5050
+Wire Wire Line
+	1800 5150 2250 5150
+Wire Wire Line
+	1800 5250 2250 5250
+Wire Wire Line
+	1800 5350 2250 5350
+Text Label 1800 5050 0    50   ~ 0
+C9
+Text Label 1800 5150 0    50   ~ 0
+C10
+Text Label 1800 5250 0    50   ~ 0
+C11
+Text Label 1800 5350 0    50   ~ 0
+C12
+Wire Wire Line
+	1800 3650 2250 3650
+Wire Wire Line
+	1800 3750 2250 3750
+Wire Wire Line
+	1800 3850 2250 3850
+Wire Wire Line
+	1800 3950 2250 3950
+Text Label 1800 3650 0    50   ~ 0
+C0
+Text Label 1800 3750 0    50   ~ 0
+C1
+Text Label 1800 3850 0    50   ~ 0
+C2
+Text Label 1800 3950 0    50   ~ 0
+C3
+Wire Wire Line
+	1800 5950 2250 5950
+Wire Wire Line
+	1800 6050 2250 6050
+Wire Wire Line
+	1800 6150 2250 6150
+Wire Wire Line
+	1800 6250 2250 6250
+Text Label 1800 5950 0    50   ~ 0
+C13
+Text Label 1800 6050 0    50   ~ 0
+C14
+Text Label 1800 6150 0    50   ~ 0
+C15
+Text Label 1800 6250 0    50   ~ 0
+C16
+Wire Wire Line
+	1050 5450 2250 5450
+Wire Wire Line
+	1050 5750 1050 5800
+NoConn ~ 4250 6250
+NoConn ~ 4250 6450
+Wire Wire Line
+	4250 6650 4750 6650
+Wire Wire Line
+	8150 2850 7800 2850
+Text Label 7800 2850 0    50   ~ 0
+VSS
+$Comp
+L power:GND #PWR0126
+U 1 1 5C87AFF4
+P 7800 2850
+F 0 "#PWR0126" H 7800 2600 50  0001 C CNN
+F 1 "GND" H 7805 2677 50  0000 C CNN
+F 2 "" H 7800 2850 50  0001 C CNN
+F 3 "" H 7800 2850 50  0001 C CNN
+	1    7800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0127
+U 1 1 5C8ACC87
+P 9000 2850
+F 0 "#PWR0127" H 9000 2700 50  0001 C CNN
+F 1 "+3V3" H 9015 2978 50  0000 L CNN
+F 2 "" H 9000 2850 50  0001 C CNN
+F 3 "" H 9000 2850 50  0001 C CNN
+	1    9000 2850
+	-1   0    0    1   
+$EndComp
+Text Label 9000 2850 2    50   ~ 0
+VDD
+NoConn ~ 8150 2950
+NoConn ~ 8150 3050
+NoConn ~ 8150 3150
+NoConn ~ 8150 3250
+NoConn ~ 8150 3350
+NoConn ~ 8150 3450
+NoConn ~ 8150 3550
+NoConn ~ 8150 3650
+NoConn ~ 8150 3750
+NoConn ~ 8650 3750
+NoConn ~ 8650 3650
+NoConn ~ 8650 3550
+NoConn ~ 8650 3450
+NoConn ~ 8650 3350
+NoConn ~ 8650 3250
+NoConn ~ 8650 3150
+NoConn ~ 8650 3050
+NoConn ~ 8650 2950
+Text Label 7800 3850 0    50   ~ 0
+LCD_RST
+Wire Wire Line
+	8650 3850 9000 3850
+Text Label 9000 3850 2    50   ~ 0
+TE
+Text Label 7800 3950 0    50   ~ 0
+LCD_CS
+Text Label 7800 4050 0    50   ~ 0
+LCD_DC
+Text Label 7800 4150 0    50   ~ 0
+LCD_SDI
+Wire Wire Line
+	8650 4150 9000 4150
+Text Label 9000 4150 2    50   ~ 0
+LCD_SDO
+Wire Wire Line
+	8650 4050 9000 4050
+Text Label 9000 4050 2    50   ~ 0
+PAR_RD
+Wire Wire Line
+	7800 3850 8150 3850
+Wire Wire Line
+	7800 3950 8150 3950
+Wire Wire Line
+	7800 4050 8150 4050
+Wire Wire Line
+	7800 4150 8150 4150
+Wire Wire Line
+	8650 3950 9000 3950
+Text Label 9000 3950 2    50   ~ 0
+LCD_SCK
+Wire Wire Line
+	7800 4250 8150 4250
+Text Label 7800 4250 0    50   ~ 0
+LCD_BL
+Wire Wire Line
+	8150 4350 7800 4350
+Text Label 7800 4350 0    50   ~ 0
+CTP_SDA
+Wire Wire Line
+	8650 4250 9000 4250
+Text Label 9000 4250 2    50   ~ 0
+CTP_SCL
+Wire Wire Line
+	7800 4450 8150 4450
+Wire Wire Line
+	7800 4550 8150 4550
+Wire Wire Line
+	7800 4650 8150 4650
+Wire Wire Line
+	7800 4750 8150 4750
+Text Label 7800 4450 0    50   ~ 0
+SD_SCL
+Text Label 7800 4550 0    50   ~ 0
+SD_CS
+Text Label 9000 4450 2    50   ~ 0
+SD_SDI
+Wire Wire Line
+	8650 4350 9000 4350
+Text Label 8700 4350 0    50   ~ 0
+SD_SDO
+Wire Wire Line
+	5450 6600 5650 6600
+Text Label 6100 6600 2    50   ~ 0
+SDA
+Text Label 5450 6600 0    50   ~ 0
+CTP_SDA
+Wire Wire Line
+	5450 6700 5900 6700
+Text Label 6100 6700 2    50   ~ 0
+SCL
+Text Label 5450 6700 0    50   ~ 0
+CTP_SCL
+Text Label 8650 4550 0    50   ~ 0
+FONT_CS
+Text Label 7800 4650 0    50   ~ 0
+FLASH_CS
+Text Label 7800 4750 0    50   ~ 0
+CTP_INT
+Text Label 9000 4650 2    50   ~ 0
+FLASH_WP
+Text Label 9000 4750 2    50   ~ 0
+VSS
+$Comp
+L power:GND #PWR0128
+U 1 1 5CF7BE50
+P 9000 4750
+F 0 "#PWR0128" H 9000 4500 50  0001 C CNN
+F 1 "GND" H 9005 4577 50  0000 C CNN
+F 2 "" H 9000 4750 50  0001 C CNN
+F 3 "" H 9000 4750 50  0001 C CNN
+	1    9000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5CFCB001
+P 1050 5450
+F 0 "#FLG0102" H 1050 5525 50  0001 C CNN
+F 1 "PWR_FLAG" H 1050 5624 50  0000 C CNN
+F 2 "" H 1050 5450 50  0001 C CNN
+F 3 "~" H 1050 5450 50  0001 C CNN
+	1    1050 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1050 5450
+Wire Wire Line
+	4250 6350 4750 6350
+Wire Wire Line
+	2250 7150 1800 7150
+Wire Wire Line
+	1800 7250 2250 7250
+Wire Wire Line
+	4250 7250 4750 7250
+Wire Wire Line
+	4250 6750 4750 6750
+Text Label 1800 7150 0    50   ~ 0
+TOUCH_L
+Text Label 1800 7250 0    50   ~ 0
+TOUCH_B
+Text Label 4750 7250 2    50   ~ 0
+TOUCH_R
+Text Label 4750 6750 2    50   ~ 0
+TOUCH_T
+Wire Wire Line
+	5150 3200 4750 3200
+Wire Wire Line
+	4750 3500 5150 3500
+Wire Wire Line
+	5150 3400 4750 3400
+Wire Wire Line
+	4750 3300 5150 3300
+Text Label 4750 3200 0    50   ~ 0
+TOUCH_T
+Text Label 4750 3500 0    50   ~ 0
+TOUCH_B
+Text Label 4750 3300 0    50   ~ 0
+TOUCH_R
+Text Label 4750 3400 0    50   ~ 0
+TOUCH_L
+Connection ~ 5100 6050
+Wire Wire Line
+	8650 2850 9000 2850
+Wire Wire Line
+	8650 4750 9000 4750
+Wire Wire Line
+	8650 4650 9000 4650
+Wire Wire Line
+	8650 4550 9000 4550
+Wire Wire Line
+	8650 4450 9000 4450
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J4
+U 1 1 5DB9174C
+P 9950 3750
+F 0 "J4" H 10000 4867 50  0000 C CNN
+F 1 "ER-TFT032" H 10000 4776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9950 3750 50  0001 C CNN
+F 3 "~" H 9950 3750 50  0001 C CNN
+	1    9950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2850 9400 2850
+Text Label 9400 2850 0    50   ~ 0
+VSS
+$Comp
+L power:GND #PWR02
+U 1 1 5DB91755
+P 9400 2850
+F 0 "#PWR02" H 9400 2600 50  0001 C CNN
+F 1 "GND" H 9405 2677 50  0000 C CNN
+F 2 "" H 9400 2850 50  0001 C CNN
+F 3 "" H 9400 2850 50  0001 C CNN
+	1    9400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5DB9175B
+P 10600 2850
+F 0 "#PWR03" H 10600 2700 50  0001 C CNN
+F 1 "+3V3" H 10615 2978 50  0000 L CNN
+F 2 "" H 10600 2850 50  0001 C CNN
+F 3 "" H 10600 2850 50  0001 C CNN
+	1    10600 2850
+	-1   0    0    1   
+$EndComp
+Text Label 10600 2850 2    50   ~ 0
+VDD
+NoConn ~ 9750 2950
+NoConn ~ 9750 3050
+NoConn ~ 9750 3150
+NoConn ~ 9750 3250
+NoConn ~ 9750 3350
+NoConn ~ 9750 3450
+NoConn ~ 9750 3550
+NoConn ~ 9750 3650
+NoConn ~ 9750 3750
+NoConn ~ 10250 3750
+NoConn ~ 10250 3650
+NoConn ~ 10250 3550
+NoConn ~ 10250 3450
+NoConn ~ 10250 3350
+NoConn ~ 10250 3250
+NoConn ~ 10250 3150
+NoConn ~ 10250 3050
+NoConn ~ 10250 2950
+Text Label 9400 3850 0    50   ~ 0
+LCD_RST
+Wire Wire Line
+	10250 3850 10600 3850
+Text Label 9400 3950 0    50   ~ 0
+LCD_CS
+Text Label 9400 4050 0    50   ~ 0
+LCD_DC
+Text Label 9400 4150 0    50   ~ 0
+LCD_SDI
+Wire Wire Line
+	10250 4150 10600 4150
+Text Label 10600 4150 2    50   ~ 0
+LCD_SDO
+Wire Wire Line
+	10250 4050 10600 4050
+Text Label 10600 4050 2    50   ~ 0
+PAR_RD
+Wire Wire Line
+	9400 3850 9750 3850
+Wire Wire Line
+	9400 3950 9750 3950
+Wire Wire Line
+	9400 4050 9750 4050
+Wire Wire Line
+	9400 4150 9750 4150
+Wire Wire Line
+	10250 3950 10600 3950
+Text Label 10600 3950 2    50   ~ 0
+LCD_SCK
+Wire Wire Line
+	9400 4250 9750 4250
+Text Label 9400 4250 0    50   ~ 0
+LCD_BL
+Wire Wire Line
+	9750 4350 9400 4350
+Text Label 9400 4350 0    50   ~ 0
+CTP_SDA
+Wire Wire Line
+	10250 4250 10600 4250
+Text Label 10600 4250 2    50   ~ 0
+CTP_SCL
+Wire Wire Line
+	9400 4450 9750 4450
+Wire Wire Line
+	9400 4550 9750 4550
+Wire Wire Line
+	9400 4650 9750 4650
+Wire Wire Line
+	9400 4750 9750 4750
+Text Label 9400 4450 0    50   ~ 0
+SD_SCL
+Text Label 9400 4550 0    50   ~ 0
+SD_CS
+Text Label 10600 4450 2    50   ~ 0
+SD_SDI
+Wire Wire Line
+	10250 4350 10600 4350
+Text Label 10300 4350 0    50   ~ 0
+SD_SDO
+Text Label 10250 4550 0    50   ~ 0
+FONT_CS
+Text Label 9400 4650 0    50   ~ 0
+FLASH_CS
+Text Label 9400 4750 0    50   ~ 0
+CTP_INT
+Text Label 10600 4650 2    50   ~ 0
+FLASH_WP
+Text Label 10600 4750 2    50   ~ 0
+VSS
+$Comp
+L power:GND #PWR04
+U 1 1 5DB917A1
+P 10600 4750
+F 0 "#PWR04" H 10600 4500 50  0001 C CNN
+F 1 "GND" H 10605 4577 50  0000 C CNN
+F 2 "" H 10600 4750 50  0001 C CNN
+F 3 "" H 10600 4750 50  0001 C CNN
+	1    10600 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2850 10600 2850
+Wire Wire Line
+	10250 4750 10600 4750
+Wire Wire Line
+	10250 4650 10600 4650
+Wire Wire Line
+	10250 4550 10600 4550
+Wire Wire Line
+	10250 4450 10600 4450
+Text Label 10600 3850 2    50   ~ 0
+TE
+Wire Wire Line
+	5650 6600 5650 6900
+Connection ~ 5650 6600
+Connection ~ 5900 6700
+Wire Wire Line
+	4250 7150 4750 7150
+Wire Wire Line
+	4250 7050 4750 7050
+Wire Wire Line
+	5900 6700 6100 6700
+Wire Wire Line
+	5650 6600 6100 6600
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 5C0FBA42
+P 11000 5700
+F 0 "J5" H 11080 5742 50  0000 L CNN
+F 1 "amp" H 11080 5651 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 11000 5700 50  0001 C CNN
+F 3 "~" H 11000 5700 50  0001 C CNN
+	1    11000 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 5900 10400 5900
+Wire Wire Line
+	10800 5800 10400 5800
+Wire Wire Line
+	10400 5700 10800 5700
+Wire Wire Line
+	10800 5500 10550 5500
+$Comp
+L power:GND #PWR06
+U 1 1 5C19EF9E
+P 10550 5500
+F 0 "#PWR06" H 10550 5250 50  0001 C CNN
+F 1 "GND" H 10555 5327 50  0000 C CNN
+F 2 "" H 10550 5500 50  0001 C CNN
+F 3 "" H 10550 5500 50  0001 C CNN
+	1    10550 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5C1A2221
+P 10350 5600
+F 0 "#PWR05" H 10350 5450 50  0001 C CNN
+F 1 "+5V" V 10365 5728 50  0000 L CNN
+F 2 "" H 10350 5600 50  0001 C CNN
+F 3 "" H 10350 5600 50  0001 C CNN
+	1    10350 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 5600 10800 5600
+Text Label 10400 5700 0    50   ~ 0
+AUDIO_SD
+Text Label 10400 5800 0    50   ~ 0
+DAC0
+Text Label 10400 5900 0    50   ~ 0
+A-
+Wire Wire Line
+	2250 6550 1550 6550
+Wire Wire Line
+	1550 6550 1550 6700
+$Comp
+L Device:Q_Photo_NPN Q1
+U 1 1 5C3A8A8F
+P 850 6500
+F 0 "Q1" H 1040 6546 50  0000 L CNN
+F 1 "Q_Photo_NPN" H 1040 6455 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm_FlatTop" H 1050 6600 50  0001 C CNN
+F 3 "~" H 850 6500 50  0001 C CNN
+	1    850  6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6700 1550 6700
+$Comp
+L Device:R_Small_US R10
+U 1 1 5C3CE4EC
+P 950 6900
+F 0 "R10" H 1018 6946 50  0000 L CNN
+F 1 "10k" H 1018 6855 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 950 6900 50  0001 C CNN
+F 3 "~" H 950 6900 50  0001 C CNN
+	1    950  6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6700 950  6800
+Connection ~ 950  6700
+$Comp
+L power:GND #PWR08
+U 1 1 5C3F31A8
+P 950 7000
+F 0 "#PWR08" H 950 6750 50  0001 C CNN
+F 1 "GND" H 955 6827 50  0000 C CNN
+F 2 "" H 950 7000 50  0001 C CNN
+F 3 "" H 950 7000 50  0001 C CNN
+	1    950  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR07
+U 1 1 5C3F591F
+P 950 6300
+F 0 "#PWR07" H 950 6150 50  0001 C CNN
+F 1 "+3V3" H 965 6473 50  0000 C CNN
+F 2 "" H 950 6300 50  0001 C CNN
+F 3 "" H 950 6300 50  0001 C CNN
+	1    950  6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3200 6050 3200
+$Comp
+L power:GND #PWR010
+U 1 1 5C507F19
+P 6050 3200
+F 0 "#PWR010" H 6050 2950 50  0001 C CNN
+F 1 "GND" H 6055 3027 50  0000 C CNN
+F 2 "" H 6050 3200 50  0001 C CNN
+F 3 "" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR09
+U 1 1 5C50F007
+P 4750 3600
+F 0 "#PWR09" H 4750 3450 50  0001 C CNN
+F 1 "+3V3" H 4765 3773 50  0000 C CNN
+F 2 "" H 4750 3600 50  0001 C CNN
+F 3 "" H 4750 3600 50  0001 C CNN
+	1    4750 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 3600 5150 3600
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5C5C727A
+P 5350 3400
+F 0 "J3" H 5400 3817 50  0000 C CNN
+F 1 "expansion" H 5400 3726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 5350 3400 50  0001 C CNN
+F 3 "~" H 5350 3400 50  0001 C CNN
+	1    5350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3300 6050 3300
+Wire Wire Line
+	6050 3400 5650 3400
+Wire Wire Line
+	6050 3500 5650 3500
+Wire Wire Line
+	5650 3600 6050 3600
+$Comp
+L power:+5V #PWR011
+U 1 1 5C6B7231
+P 6050 3600
+F 0 "#PWR011" H 6050 3450 50  0001 C CNN
+F 1 "+5V" V 6065 3728 50  0000 L CNN
+F 2 "" H 6050 3600 50  0001 C CNN
+F 3 "" H 6050 3600 50  0001 C CNN
+	1    6050 3600
+	0    1    1    0   
+$EndComp
+Text Label 6050 3300 2    50   ~ 0
+SCA1
+Text Label 6050 3400 2    50   ~ 0
+SCL1
+Wire Wire Line
+	2250 6350 1800 6350
+Wire Wire Line
+	2250 6450 1800 6450
+Text Label 1800 6350 0    50   ~ 0
+SCL1
+Text Label 6050 3500 2    50   ~ 0
+DAC1
+Text Label 1800 6450 0    50   ~ 0
+SCA1
+NoConn ~ 4250 6950
+NoConn ~ 10400 5900
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5CCB1609
+P 5550 4050
+F 0 "J6" H 5578 4076 50  0000 L CNN
+F 1 "TOUCH_T" H 5578 3985 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 5550 4050 50  0001 C CNN
+F 3 "~" H 5550 4050 50  0001 C CNN
+	1    5550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4050 4800 4050
+Text Label 4800 4050 0    50   ~ 0
+TOUCH_T
+Text Label 1800 5450 0    50   ~ 0
+VBat
+Text Label 1800 5750 0    50   ~ 0
+Program
+Text Label 1800 5850 0    50   ~ 0
+Reset
+Text Label 1800 6550 0    50   ~ 0
+Ambient
+Text Label 4550 5650 0    50   ~ 0
+D+
+Text Label 4550 5750 0    50   ~ 0
+D-
+Text Label 4450 5850 0    50   ~ 0
+VBUS
+$EndSCHEMATC
