@@ -2031,7 +2031,7 @@ C2
 Text Label 3250 2600 0    50   ~ 0
 C1
 $Comp
-L teensy:Teensy3.6 U1
+L bb1-rescue:Teensy3.6-teensy U1
 U 1 1 5C2EC406
 P 3250 5150
 F 0 "U1" H 3250 7537 60  0000 C CNN
