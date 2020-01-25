@@ -12,3 +12,6 @@ Runs the [britepad](https://github.com/blackketter/britepad) software.
 
 ![briteboard photo](briteboard.jpg)
 ![schematic](schematic.png)
+![components](components.jpg)
+![PCB front](pcb-front.jpg)
+![PCB back](pcb-back.jpg)
